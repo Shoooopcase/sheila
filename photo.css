@@ -1,0 +1,58 @@
+*{
+    margin:0px;
+    padding :0px;
+}
+
+/* links */
+header ul li{display:inline;
+                  color:white;
+                  Text-align:center; 
+                                    }   
+.ctn{background: purple;
+}
+.ctn a {background: purple;
+text-decoration:none;
+color:white;
+padding-left:10.5px;
+font-family:monospace;
+display:inline;}
+
+
+header a{text-decoration:none;
+color:grey;
+font-family:monospace;
+display:inline;
+padding-top:50px;
+Text-align :center ;
+}
+nav a{padding:10.5px;}
+
+
+
+/* header */
+header{background:black;
+color:white;
+padding-top:40px;
+padding-bottom:50px;
+}
+header h1{font-family:cursive;
+margin :0px;
+font-size:50px ;
+Text-align:center ;
+}
+p{Text-align:center;}
+
+nav {padding-top:15px;
+Text-align:center;}
+
+/* images */
+img{width :100%;
+height:25%}
+
+
+    .java{background:black;
+    padding-bottom:50px;
+        
+   margin:0;}
+
+}
