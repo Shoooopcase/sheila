@@ -14,7 +14,7 @@ header ul li{display:inline;
 .ctn a {background: purple;
 text-decoration:none;
 color:white;
-padding-left:10.5px;
+padding-left:0.65625rem;
 font-family:monospace;
 display:inline;}
 
@@ -23,7 +23,7 @@ header a{text-decoration:none;
 color:grey;
 font-family:monospace;
 display:inline;
-padding-top:50px;
+padding-top:3.125rem;
 Text-align :center ;
 }
 nav a{padding:0.65625rem;}
