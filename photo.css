@@ -26,24 +26,24 @@ display:inline;
 padding-top:50px;
 Text-align :center ;
 }
-nav a{padding:10.5px;}
+nav a{padding:0.65625rem;}
 
 
 
 /* header */
 header{background:black;
 color:white;
-padding-top:40px;
-padding-bottom:50px;
+padding-top:2.5rem;
+padding-bottom:3.125rem;
 }
 header h1{font-family:cursive;
-margin :0px;
-font-size:50px ;
+margin :0rem;
+font-size:3.125rem ;
 Text-align:center ;
 }
 p{Text-align:center;}
 
-nav {padding-top:15px;
+nav {padding-top:0.9375rem;
 Text-align:center;}
 
 /* images */
