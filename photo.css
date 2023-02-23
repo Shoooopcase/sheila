@@ -1,15 +1,14 @@
-*{
-    margin:0px;
-    padding:0px;
+*{margin:0px;
+  padding:0px;
 }
 
 /* links */
 header ul li{display:inline;
                   color:white;
-                  Text-align:center; 
-                                    }   
+                  Text-align:center;}   
 
 .ctn{background: purple;
+Text-align:center;
 }
 .ctn a {background: purple;
 text-decoration:none;
@@ -48,7 +47,7 @@ Text-align:center;}
 
 /* images */
 img{width :100%;
-height:100vh}
+height:90vh}
 
 
   
