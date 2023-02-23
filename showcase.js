@@ -1,11 +1,14 @@
 var i=0;
 var images=[];
-var time=2000;
+var time=3000;
 //images list
-images[0]='pic1.png';
-images[1]='pic2.jpg';
+images[0]='pic6.png';
+images[1]='pic5.jpg';
 images[2]='pic3.jpg';
 images[3]='pic4.jpg';
+images[4]='pic2.png';
+images[5]='pic1.png';
+
 //change image
 function changeimg(){
     document.slide.src=images[i];
