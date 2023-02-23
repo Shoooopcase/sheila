@@ -40,7 +40,7 @@ margin :0rem;
 font-size:3.125rem ;
 Text-align:center ;
 }
-p{Text-align:center;}
+p,h1{Text-align:center;}
 
 nav {padding-top:0.9375rem;
 Text-align:center;}
