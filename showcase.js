@@ -1,22 +1,45 @@
-var i=0;
-var images=[];
-var time=3000;
-//images list
-images[0]='pic6.jpg';
-images[1]='pic5.jpg';
-images[2]='pic3.jpg';
-images[3]='pic4.jpg';
-images[4]='pic2.jpg';
-images[5]='pic1.jpg';
+var i1 = 0;
+var images1 = ['pic1.jpg', 'pic2.jpg', 'pic3.jpg', 'pic4.jpg'];
+var time1 = 2000;
 
-//change image
-function changeimg(){
-    document.slide.src=images[i];
-    if(i< images.length-1){
-    i++;
-        
-    }else{i=0;}
-    
-    setTimeout("changeimg()",time);
+function changeimg1() {
+    document.slide.src = images1[i1];
+    if (i1 < images1.length - 1) {
+        i1++;
+    } else {
+        i1 = 0;
+    }
+    setTimeout(changeimg1, time1);
 }
-window.onload=changeimg;
+
+var i2 = 0;
+var images2 = ['pic7.jpg', 'pic3.jpg', 'pic2.jpg', 'pic1.jpg'];
+var time2 = 2000;
+
+function changeimg2() {
+    document.two.src = images2[i2];
+    if (i2 < images2.length - 1) {
+        i2++;
+    } else {
+        i2 = 0;
+    }
+    setTimeout(changeimg2, time2);
+}
+
+window.onload = function() {
+    changeimg1();
+    changeimg2();
+};
+
+
+  // Set the time period in milliseconds
+  const timePeriod = 1000; // 5 seconds
+  
+  // Function to show the button
+  function showButton() {
+    document.getElementById("myButton").style.display = "block";
+  }
+  
+  // Set a timeout to show the button after the time period has elapsed
+  setTimeout(showButton, timePeriod);
+
