@@ -60,7 +60,7 @@ Background-color:black;}
     right: 0;
   }
   
-  .button a {
+  .button a,h2{
     display: block;
    
     font-family:monospace;
