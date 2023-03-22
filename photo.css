@@ -9,12 +9,13 @@ header ul li{display:inline;
                   color:white;
                   Text-align:center; 
                                     }   
-
+.ctn{text-align:center;
+color:white;}
 .ctn a {text-decoration:none;
-color:black;
+color:white;
 padding-left:10.5px;
 font-family:monospace;
-display:inline;}
+Text-align:center;}
 
 
 header a{text-decoration:none;
@@ -47,4 +48,4 @@ Text-align:center;}
 /* images */
 img{max-width :100%;}
 
-
+.pic{text-align:center;}
