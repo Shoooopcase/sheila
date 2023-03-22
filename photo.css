@@ -1,7 +1,7 @@
 *{
     margin:0px;
     padding :0px;
-    background: black;
+    
 }
 
 /* links */
@@ -47,7 +47,8 @@ Text-align:center;}
 /* images */
 img{max-width :100%;}
 
-.pic{text-align:center;}
+.pic{text-align:center;
+Background-color:black;}
 .button {
     display: none;
     border: 2px solid #000;
